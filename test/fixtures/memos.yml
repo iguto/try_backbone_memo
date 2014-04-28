@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: memos
+#
+#  id         :integer          not null, primary key
+#  content    :text
+#  done       :boolean
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  content: MyText
+  done: false
+
+two:
+  content: MyText
+  done: false

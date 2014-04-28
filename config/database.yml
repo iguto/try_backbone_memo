@@ -17,9 +17,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: postgres
+  database: memo_backbone_development
   pool: 5
-  username: memo_backbone
+  username: postgres
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: memo_backbone_test
   pool: 5
-  username: memo_backbone
+  username: postgres
   password:
 
 production:
